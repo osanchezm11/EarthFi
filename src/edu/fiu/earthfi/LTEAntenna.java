@@ -3,8 +3,9 @@ package edu.fiu.earthfi;
 public class LTEAntenna {
 
 	private String type;
-	private String frequency;
-	private String bandwidth;
+	private Double frequency;
+	private Double bandwidth;
+	private LTECellTowerMain cellTowerMain;
 
 	public void sendSignal()  {
 	}

@@ -3,7 +3,10 @@ package edu.fiu.earthfi;
 public class GroundRecoveryTeam {
 
 	private String name;
-	private String location;
+	private Object location;
+	
+	private GroundControlStation controlStation;
+	private PropagatingDevice device;
 
 	public void collectEquipment()  {
 	}

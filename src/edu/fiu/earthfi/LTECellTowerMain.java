@@ -2,10 +2,10 @@ package edu.fiu.earthfi;
 
 public class LTECellTowerMain {
 
-	private String RFantenna;
-	private String towerInfrastructure;
-	private String powerSupply;
-	private String internetConnectivity;
+	private Object RFantenna;
+	private Object towerInfrastructure;
+	private Object powerSupply;
+	private Object internetConnectivity;
 
 	public void trasmitreceiveSignals()  {
 	}

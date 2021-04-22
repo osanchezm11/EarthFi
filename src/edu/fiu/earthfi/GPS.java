@@ -3,8 +3,8 @@ package edu.fiu.earthfi;
 public class GPS {
 
 	private String type;
-	private String frequency;
-	private String noOfChannels;
+	private Double frequency;
+	private Integer noOfChannels;
 
 	public void trackLocation()  {
 	}

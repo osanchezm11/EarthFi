@@ -2,7 +2,7 @@ package edu.fiu.earthfi;
 
 public class SolarPanel {
 
-	private String efficiency;
+	private Double efficiency;
 	private String size;
 
 	public void providePower()  {

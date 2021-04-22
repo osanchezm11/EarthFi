@@ -3,7 +3,7 @@ package edu.fiu.earthfi;
 public class Transponder {
 
 	private String type;
-	private String frequency;
+	private Double frequency;
 
 	public void locateDevice()  {
 	}

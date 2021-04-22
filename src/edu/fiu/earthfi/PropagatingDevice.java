@@ -2,11 +2,17 @@ package edu.fiu.earthfi;
 
 public class PropagatingDevice {
 
-	private String weight;
+	private Double weight;
 	private String size;
 	private String type;
 	private String color;
 	private String material;
+	
+	private Envelope envelope;
+	private Internet internet;
+	private Payload payload;
+	private GroundControlStation controlStation;
+	private Bus bus;
 
 	public void activate()  {
 	}

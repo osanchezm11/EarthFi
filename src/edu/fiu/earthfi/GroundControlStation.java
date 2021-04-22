@@ -1,13 +1,17 @@
 package edu.fiu.earthfi;
 
+import java.util.List;
+
 public class GroundControlStation {
 
-	private String receptionAntenna;
-	private String receiver;
-	private String feedHorn;
-	private String waveguide;
-	private String radome;
-	private String deviceNetwork;
+	private Object receptionAntenna;
+	private Object receiver;
+	private Object feedHorn;
+	private Object waveguide;
+	private Object radome;
+	private LTEAntenna antenna;
+	private GroundRecoveryTeam groundRecoveryTeam;
+	private List<PropagatingDevice> devices;
 
 	public void getConnectionStatus()  {
 	}

@@ -1,8 +1,8 @@
 package edu.fiu.earthfi;
 
-public class Buoy {
+public class Buoy extends PropagatingDevice {
 
-	private String waveSensor;
+	private Object waveSensor;
 
 	public void detectWaterTurbulence()  {
 	}

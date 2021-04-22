@@ -2,8 +2,10 @@ package edu.fiu.earthfi;
 
 public class Payload {
 
-	private String weight;
-	private String noOfAntennas;
+	private Double weight;
+	private Integer noOfAntennas;
+	private GPS gps;
+	private LTEAntenna antenna;
 
 	public void deliverConnectivity()  {
 	}

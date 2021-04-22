@@ -1,8 +1,9 @@
 package edu.fiu.earthfi;
 
-public class Ballloon {
+public class Ballloon extends PropagatingDevice {
 
-	private String windSensor;
+	private Object windSensor;
+	private Parachute parachute;
 
 	public void detectWind()  {
 	}
