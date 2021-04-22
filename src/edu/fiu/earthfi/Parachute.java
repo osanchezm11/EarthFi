@@ -6,7 +6,7 @@ public class Parachute {
 	private String size;
 	private String type;
 
-	public void deploy()  {
+	public void deployParachute()  {
 	}
 
 }
