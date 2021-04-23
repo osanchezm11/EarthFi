@@ -7,6 +7,7 @@ public class Parachute {
 	private String type;
 
 	public void deployParachute()  {
+		System.out.println("3.1 Parachute - Decomm done by parachute");
 	}
 
 }

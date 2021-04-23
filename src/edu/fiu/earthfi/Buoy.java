@@ -7,4 +7,12 @@ public class Buoy extends PropagatingDevice {
 	public void detectWaterTurbulence()  {
 	}
 
+	public void decommission() {
+		
+	}
+
+	public String getType() {
+		return "Buoy";
+	}
+
 }

@@ -8,6 +8,7 @@ public class User {
 	private Internet internet;
 
 	public void connectToInternet()  {
+		System.out.println("2.8 User - Internet data sent");
 	}
 
 }

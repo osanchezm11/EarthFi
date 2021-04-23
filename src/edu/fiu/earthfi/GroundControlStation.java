@@ -11,7 +11,7 @@ public class GroundControlStation {
 	private Object radome;
 	private LTEAntenna antenna;
 	private GroundRecoveryTeam groundRecoveryTeam;
-	private List<PropagatingDevice> devices;
+	private List<PropagatingDevice> devices;	
 
 	public void getConnectionStatus()  {
 	}
@@ -29,6 +29,10 @@ public class GroundControlStation {
 	}
 
 	public void monitorActivity()  {
+	}
+
+	public void receiveSignalFromDevice() {
+		System.out.println("2.6 GroundControlStation - Signal Directed");		
 	}
 
 }
